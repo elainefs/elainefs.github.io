@@ -1,0 +1,54 @@
+## Project Card Template
+# Use the template below to create a new project card
+# For each new project, copy the template and fill in the information
+# In 'stack' use the "Brand slug" available at:
+# https://github.com/simple-icons/simple-icons/blob/master/slugs.md
+# ---------------------------------------------------------
+# - name: "Name Project"
+#   description: >
+#     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+#     Porro sit, rerum neque quae asperiores perspiciatis
+#     eligendi quam illum recusandae ex. Dolor placeat
+#     quidem accusamus eius aperiam voluptatem quos facilis.
+#   image: "assets/img/banner/banner-projetos-500x300.png"
+#   repository: "https://github.com/elainefs"
+#   deploy: "https://github.com/elainefs"
+#   stacks:
+#     - stack: javascript
+#     - stack: html5
+# ---------------------------------------------------------
+
+- name: "Script de instalação de uma versão mínima do Gnome no Debian"
+  description: >
+    Script para instalação do ambiente de trabalho Gnome na versão mínima no Debian, em que apenas a interface gráfica e alguns pacotes essenciais são instalados.
+  image: "assets/img/projects-banner/debian.webp"
+  repository: "https://github.com/elainefs/minimal-gnome"
+  deploy: "https://github.com/elainefs/minimal-gnome"
+  stacks:
+    - stack: gnubash
+    - stack: linux
+
+- name: "Tema Jekyll - Case"
+  description: >
+    Tema Jekyll para Website e Blog pessoal desenvolvido e mantido por mim. O tema é responsivo, com otimização de SEO e outras diversas funcionalidades.
+  image: "assets/img/projects-banner/jekyll-theme-case.webp"
+  repository: "https://github.com/elainefs/elainefs.github.io"
+  deploy: "https://elainefs.github.io"
+  stacks:
+    - stack: jekyll
+    - stack: javascript
+    - stack: bootstrap
+    - stack: fontawesome
+    - stack: simpleicons
+
+- name: "Portfólio Pessoal"
+  description: >
+    Modelo de portfólio pessoal para expor habilidades, contatos e projetos desenvolvidos. Esse projeto fez parte das atividades propostas do projeto ElasNaTech 2023 ficando entre os melhores trabalhos da turma.
+  image: "assets/img/projects-banner/portfolio-pessoal.webp"
+  repository: "https://github.com/elainefs/personal-portfolio"
+  deploy: "https://elainefs.github.io/personal-portfolio/"
+  stacks:
+    - stack: html5
+    - stack: css3
+    - stack: javascript
+    - stack: bootstrap

@@ -1,0 +1,14 @@
+# In 'skill' use the "Brand slug" available at:
+# https://github.com/simple-icons/simple-icons/blob/master/slugs.md
+
+skills:
+  - skill: html5
+  - skill: css3
+  - skill: javascript
+  - skill: typescript
+  - skill: bootstrap
+  - skill: mysql
+  - skill: jquery
+  - skill: linux
+  - skill: git
+  - skill: jekyll

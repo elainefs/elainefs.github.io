@@ -1,0 +1,38 @@
+---
+title: Sobre
+permalink: /sobre
+---
+
+<section>
+  <p>
+    Olá, me chamo Elaine Ferreira, sou natural de Belém do Pará, tenho um cachorro serelepe chamado Sirius e sou
+    apaixonada por tecnologia e programação, apesar disso minha primeira
+    formação é em Biomedicina e atualmente estou cursando o bacharelado em Engenharia de Software.
+  </p>
+
+  <p>
+    Eu crie esse blog mais como uma forma de documentar as coisas que gosto e aprendo na área da tecnologia e
+    programação, pois estou sempre em busca de aprimorar e expandir meus conhecimentos. Você também pode ver os <a
+      href="{{'/projetos' | absolute_url}}">projetos</a> que já desenvolvi ou estou desenvolvendo.
+  </p>
+</section>
+
+<section>
+  <h2 class="mb-5">Habilidades</h2>
+  <!-- Fill in the information in _data/skills.yml -->
+  <div class="skills">
+    {% for skills in site.data.skills.skills %}
+    <div class="skills-items">
+      <img style="height: 50px; width: 50px;" src="https://cdn.simpleicons.org/{{skills.skill}}" alt="{{skills.skill}}"
+        title="{{skills.skill}}">
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h2 class="mb-5">Contatos</h2>
+  <div class="contacts-social-icons">
+    {% include social-icons.html %}
+  </div>
+</section>
