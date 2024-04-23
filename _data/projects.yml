@@ -41,6 +41,18 @@
     - stack: fontawesome
     - stack: simpleicons
 
+- name: "Aliment@r"
+  description: >
+    Plataforma web de doação de alimentos construída durante o Hackathon Reprograme-se 2024. A plataforma é responsiva, com recursos de acessibilidade e salvamento de dados em localStorage.
+  image: "assets/img/projects-banner/alimentar.webp"
+  repository: "https://github.com/elainefs/alimentar"
+  deploy: "https://equipe33-hackathon2024.netlify.app"
+  stacks:
+    - stack: html5
+    - stack: css3
+    - stack: javascript
+    - stack: bootstrap
+
 - name: "Portfólio Pessoal"
   description: >
     Modelo de portfólio pessoal para expor habilidades, contatos e projetos desenvolvidos. Esse projeto fez parte das atividades propostas do projeto ElasNaTech 2023 ficando entre os melhores trabalhos da turma.
