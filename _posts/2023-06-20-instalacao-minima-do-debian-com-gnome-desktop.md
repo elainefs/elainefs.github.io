@@ -387,7 +387,7 @@ apt install ntfs-3g -y
 
 Talvez seja útil para você essas configurações adicionais:
 
-[Como instalar e habilitar o sudo no Debian](https://elaineferreira.com.br/como-instalar-e-habilitar-o-sudo-no-debian/)
+[Como instalar e habilitar o sudo no Debian](https://elaineferreira.com.br/como-instalar-e-habilitar-o-sudo-no-debian)
 
 [Como corrigir erro de rede cabeada com ponto de interrogação no Linux](https://elaineferreira.com.br/corrigir-erro-de-rede-cabeada-com-ponto-de-interrogacao-no-linux)
 
