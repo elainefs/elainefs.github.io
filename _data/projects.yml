@@ -32,8 +32,8 @@
   description: >
     Tema Jekyll para Website e Blog pessoal desenvolvido e mantido por mim. O tema é responsivo, com otimização de SEO e outras diversas funcionalidades.
   image: "assets/img/projects-banner/jekyll-theme-case.webp"
-  repository: "https://github.com/elainefs/elainefs.github.io"
-  deploy: "https://elainefs.github.io"
+  repository: "https://github.com/elainefs/jekyll-theme-case"
+  deploy: "http://elaineferreira.com.br/jekyll-theme-case/"
   stacks:
     - stack: jekyll
     - stack: javascript
@@ -49,18 +49,20 @@
   deploy: "https://equipe33-hackathon2024.netlify.app"
   stacks:
     - stack: html5
-    - stack: css3
-    - stack: javascript
-    - stack: bootstrap
-
-- name: "Portfólio Pessoal"
-  description: >
-    Modelo de portfólio pessoal para expor habilidades, contatos e projetos desenvolvidos. Esse projeto fez parte das atividades propostas do projeto ElasNaTech 2023 ficando entre os melhores trabalhos da turma.
-  image: "assets/img/projects-banner/portfolio-pessoal.webp"
-  repository: "https://github.com/elainefs/personal-portfolio"
-  deploy: "https://elainefs.github.io/personal-portfolio/"
-  stacks:
-    - stack: html5
     - stack: css
     - stack: javascript
     - stack: bootstrap
+
+- name: "Sistema de Gerenciamento de Estoque - SGE"
+  description: >
+    Aplicação FullStack em Django e Django REST Framework para gerenciamento de estoque, com interface web, API RESTful, integração com notificações via CallMeBot (e-mail e WhatsApp) e uso de IA da OpenAI para recomendações sobre produtos.
+  image: "assets/img/projects-banner/sge-dashboard.webp"
+  repository: "https://github.com/elainefs/django-sge"
+  deploy: "https://github.com/elainefs/django-sge"
+  stacks:
+    - stack: python
+    - stack: django
+    - stack: postgresql
+    - stack: bootstrap
+    - stack: docker
+    - stack: openai

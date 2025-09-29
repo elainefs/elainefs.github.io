@@ -5,10 +5,11 @@ skills:
   - skill: html5
   - skill: css
   - skill: javascript
-  - skill: typescript
   - skill: node.js
   - skill: python
+  - skill: django
   - skill: bootstrap
+  - skill: postgresql
   - skill: mysql
   - skill: jquery
   - skill: linux
