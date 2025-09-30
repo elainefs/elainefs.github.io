@@ -13,7 +13,12 @@ description: Website e Blog pessoal sobre tecnologia e programação.
 avatar: "assets/img/avatar/avatar.webp" # The avatar on sidebar
 
 # About page
-about: "A Jekyll theme with sidebar for personal website and blog."
+about: "
+<p>Olá, me chamo Elaine Ferreira, sou natural de Belém do Pará, tenho um cachorro serelepe chamado Sirius e sou
+  apaixonada por tecnologia e programação, atualmente estou cursando o bacharelado em Engenharia de Software.</p>
+<p>Eu crie esse blog mais como uma forma de documentar as coisas que gosto e aprendo na área da tecnologia e
+  programação, pois estou sempre em busca de aprimorar e expandir meus conhecimentos. Você também pode ver os <a href='https://elaineferreira.com.br/projetos'>projetos</a> que já desenvolvi ou estou desenvolvendo.</p>
+"
 skills: true
 experiences: true
 education: true

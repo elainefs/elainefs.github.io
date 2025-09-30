@@ -4,9 +4,22 @@
 # If it is your current job, use "Now" in the "end" field
 # ------------------------------------------------------
 #Template
-- role: "Web Developer"
-  company: "Company Name"
-  start: "2024-09-01"
-  end: "Now" 
-  description: "During my time at the company, I developed many Websites."
+# - role: "Web Developer"
+#   company: "Company Name"
+#   start: "2024-09-01"
+#   end: "Now" 
+#   description: "During my time at the company, I developed many Websites."
 # -------------------------------------------------------
+- role: "Desenvolvedora de Software Backend"
+  company: "Equanimüs"
+  start: "2024-10-01"
+  end: "Now" 
+  description: "
+  <ul>
+  <li>Desenvolvimento e manutenção de APIs usando Python com Django e Django REST Framework.</li>
+  <li>Utilização de Docker para isolamento e orquestração de ambientes de desenvolvimento.</li>
+  <li>Modelagem e gestão de bancos de dados relacionais PostgreSQL.</li>
+  <li>Criação e manutenção de testes unitários para garantir a qualidade do código.</li>
+  <li>Automação de rotinas e tarefas repetitivas via scripts.</li>
+  </ul>
+  "

@@ -3,9 +3,20 @@
 # For each new education, copy the template and fill in the information
 # ---------------------------------------------------------
 # Template
-- institution: "University of Technology"
-  degree: "Bachelor Degree"
-  field: "Software Engineering"
+# - institution: "University of Technology"
+#   degree: "Bachelor Degree"
+#   field: "Software Engineering"
+#   start: "2023-09-11"
+#   end: "2027-07-07"
+# ---------------------------------------------------------
+- institution: "Universidade do Estado do Pará"
+  degree: "Bacharelado"
+  field: "Engenharia de Software"
   start: "2023-09-11"
   end: "2027-07-07"
-# ---------------------------------------------------------
+
+- institution: "Escola Técnica FAT"
+  degree: "Técnico"
+  field: "Desenvolvimento de Sistemas"
+  start: "2024-05-01"
+  end: "2025-09-19"

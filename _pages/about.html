@@ -4,17 +4,7 @@ permalink: /sobre
 ---
 
 <section>
-  <p>
-    Olá, me chamo Elaine Ferreira, sou natural de Belém do Pará, tenho um cachorro serelepe chamado Sirius e sou
-    apaixonada por tecnologia e programação, apesar disso minha primeira
-    formação é em Biomedicina e atualmente estou cursando o bacharelado em Engenharia de Software.
-  </p>
-
-  <p>
-    Eu crie esse blog mais como uma forma de documentar as coisas que gosto e aprendo na área da tecnologia e
-    programação, pois estou sempre em busca de aprimorar e expandir meus conhecimentos. Você também pode ver os <a
-      href="{{'/projetos' | absolute_url}}">projetos</a> que já desenvolvi ou estou desenvolvendo.
-  </p>
+  <p>{{ site.about }}</p>
 </section>
 
 {% if site.skills %}
@@ -47,7 +37,7 @@ permalink: /sobre
               {{ experience.company }}
             </p>
             <p class="experience-period">
-              {{ experience.start|date: "%Y . %m" }} - {% if experience.end == "Now" %} present {% else %} {{ experience.end|date: "%Y . %m" }} {% endif %}
+              {{ experience.start|date: "%m . %Y" }} - {% if experience.end == "Now" %} o momento {% else %} {{ experience.end|date: "%m . %Y" }} {% endif %}
             </p>
             <p class="experience-description">
               {{ experience.description }}
@@ -71,7 +61,7 @@ permalink: /sobre
         <p class="education-degree">           
           {{ education.degree }}, {{ education.field }}
         </p>
-        <p>{{ education.start|date: "%Y . %m" }} - {{ education.end|date: "%Y . %m" }}</p>    
+        <p>{{ education.start|date: "%m . %Y" }} - {{ education.end|date: "%m . %Y" }}</p>    
       </div>
     {% endfor %}
   </div>
