@@ -12,6 +12,13 @@ tagline: Software Developer
 description: Website e Blog pessoal sobre tecnologia e programação.
 avatar: "assets/img/avatar/avatar.webp" # The avatar on sidebar
 
+# About page
+about: "A Jekyll theme with sidebar for personal website and blog."
+skills: true
+experiences: true
+education: true
+contacts: true
+
 # Social profiles
 email: elaineferreira.dev@gmail.com
 github: elainefs
