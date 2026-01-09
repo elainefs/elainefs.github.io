@@ -1,8 +1,10 @@
 ## Project Card Template
 # Use the template below to create a new project card
 # For each new project, copy the template and fill in the information
-# In 'stack' use the "Brand slug" available at:
-# https://github.com/simple-icons/simple-icons/blob/master/slugs.md
+# There are two icon packages available, SimpleIcons or Skill Icons (default)
+# In 'stack' use the "Brand slug" or "Icon ID' available at:
+# SimpleIcons: https://github.com/simple-icons/simple-icons/blob/master/slugs.md
+# Skill Icons: https://github.com/tandpfun/skill-icons/tree/main?tab=readme-ov-file#icons-list
 # ---------------------------------------------------------
 # - name: "Name Project"
 #   description: >
@@ -25,7 +27,7 @@
   repository: "https://github.com/elainefs/minimal-gnome"
   deploy: "https://github.com/elainefs/minimal-gnome"
   stacks:
-    - stack: gnubash
+    - stack: bash
     - stack: linux
 
 - name: "Tema Jekyll - Case"
@@ -35,11 +37,10 @@
   repository: "https://github.com/elainefs/jekyll-theme-case"
   deploy: "http://elaineferreira.com.br/jekyll-theme-case/"
   stacks:
-    - stack: jekyll
     - stack: javascript
+    - stack: html
+    - stack: css
     - stack: bootstrap
-    - stack: fontawesome
-    - stack: simpleicons
 
 - name: "Aliment@r"
   description: >
@@ -48,9 +49,9 @@
   repository: "https://github.com/elainefs/alimentar"
   deploy: "https://equipe33-hackathon2024.netlify.app"
   stacks:
-    - stack: html5
-    - stack: css
     - stack: javascript
+    - stack: html
+    - stack: css
     - stack: bootstrap
 
 - name: "Sistema de Gerenciamento de Estoque - SGE"
@@ -65,4 +66,3 @@
     - stack: postgresql
     - stack: bootstrap
     - stack: docker
-    - stack: openai
