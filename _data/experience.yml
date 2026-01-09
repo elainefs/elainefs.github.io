@@ -10,16 +10,33 @@
 #   end: "Now" 
 #   description: "During my time at the company, I developed many Websites."
 # -------------------------------------------------------
-- role: "Desenvolvedora de Software Backend"
+- role: "Desenvolvedora de Software Backend Jr"
   company: "Equanimüs"
-  start: "2024-10-01"
-  end: "Now" 
+  start: "2025-05-01"
+  end: "2025-12-31" 
   description: "
   <ul>
-  <li>Desenvolvimento e manutenção de APIs usando Python com Django e Django REST Framework.</li>
-  <li>Utilização de Docker para isolamento e orquestração de ambientes de desenvolvimento.</li>
+  <li>Desenvolvimento, manutenção e otimização de APIs REST com Django e Django REST Framework.</li>
+  <li>Atuação na manutenção e evolução de sistemas legados, garantindo estabilidade e correções contínuas.</li>
+  <li>Atuação em sistemas com arquitetura baseada em microsserviços, integrando serviços via APIs REST.</li>
+  <li>Utilização de Docker para padronização e isolamento de ambientes.</li>
   <li>Modelagem e gestão de bancos de dados relacionais PostgreSQL.</li>
   <li>Criação e manutenção de testes unitários para garantir a qualidade do código.</li>
-  <li>Automação de rotinas e tarefas repetitivas via scripts.</li>
+  <li>Implementação de interfaces utilizando templates do Django.</li>
+  <li>Participação em times que utilizavam metodologias ágeis (Scrum/Kanban).</li>
+  </ul>
+  "
+
+- role: "Estagiária em Desenvolvimento de Software Backend"
+  company: "Equanimüs"
+  start: "2024-10-01"
+  end: "2025-04-30" 
+  description: "
+  <ul>
+  <li>Suporte e desenvolvimento de funcionalidades simples utilizando Python com Django e Django REST Framework.</li>
+  <li>Aprendizado prático sobre conteinerização utilizando Docker para padronizar e isolar ambientes de desenvolvimento.</li>
+  <li>Automação de rotinas e tarefas repetitivas por meio de scripts.</li>
+  <li>Colaboração próxima com outros desenvolvedores, absorvendo conhecimento sobre arquitetura e desenvolvimento de sistemas e APIs.</li>
+  <li>Participação em times que utilizavam metodologias ágeis (Scrum/Kanban).</li>
   </ul>
   "
