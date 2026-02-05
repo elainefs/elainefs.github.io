@@ -59,7 +59,7 @@
     Aplicação FullStack em Django e Django REST Framework para gerenciamento de estoque, com interface web, API RESTful, integração com notificações via CallMeBot (e-mail e WhatsApp) e uso de IA da OpenAI para recomendações sobre produtos.
   image: "assets/img/projects-banner/sge-dashboard.webp"
   repository: "https://github.com/elainefs/django-sge"
-  deploy: "https://github.com/elainefs/django-sge"
+  deploy: "https://django-sge.onrender.com"
   stacks:
     - stack: python
     - stack: django
