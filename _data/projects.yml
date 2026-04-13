@@ -24,8 +24,8 @@
   description: >
     Script para instalação do ambiente de trabalho Gnome na versão mínima no Debian, em que apenas a interface gráfica e alguns pacotes essenciais são instalados.
   image: "assets/img/projects-banner/debian.webp"
-  repository: "https://github.com/elainefs/minimal-gnome"
-  deploy: "https://github.com/elainefs/minimal-gnome"
+  repository: "https://github.com/elainefs/gnome-minimal"
+  deploy: "https://github.com/elainefs/gnome-minimal"
   stacks:
     - stack: bash
     - stack: linux
