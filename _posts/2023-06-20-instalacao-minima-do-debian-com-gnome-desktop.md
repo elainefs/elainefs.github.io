@@ -279,6 +279,10 @@ E em seguida sua senha de root definida no Passo 7.
 
 ![](assets/img/posts/debian-minimal/024-login-root-minimal.webp)
 
+Para facilitar a instalação, os passos abaixo foram transformados em um script bash. Esse script é atualizado com maior frequência e possui recursos extras.
+Você pode acessá-lo em: [https://github.com/elainefs/gnome-minimal](https://github.com/elainefs/gnome-minimal){:target="_blank"}.
+{: .bubble-tip}
+
 A primeira coisa que você deve fazer é atualizar o seu sistema, rode o seguinte comando:
 
 ```bash
